@@ -1,0 +1,1612 @@
+{
+	"info": {
+		"_postman_id": "c9f55eee-2df3-4be2-869c-e56b84240c5e",
+		"name": "algebreb-api-json-formularios",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:4000/ecuaciones_grado2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\"],\r\n    \"dominio\": \"ZZ\",\r\n    \"fraccion\": false,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/ecuaciones_grado2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"ecuaciones_grado2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/ecuaciones_grado1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\"],\r\n    \"dominio\": \"ZZ\",\r\n    \"fraccion\": false,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/ecuaciones_grado1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"ecuaciones_grado1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/termino_polinomios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\"],\r\n    \"dominio\": \"ZZ\",\r\n    \"fraccion\": false,\r\n    \"completo\": true,\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/termino_polinomios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"termino_polinomios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/grado_polinomios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\"],\r\n    \"dominio\": \"ZZ\",\r\n    \"fraccion\": false,\r\n    \"completo\": true,\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/grado_polinomios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"grado_polinomios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/division_polinomios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\"],\r\n    \"dominio\": \"ZZ\",\r\n    \"fraccion\": false,\r\n    \"completo\": true,\r\n    \"exacta\": true,\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/division_polinomios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"division_polinomios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/division_polinomios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\"],\r\n    \"dominio\": \"ZZ\",\r\n    \"fraccion\": false,\r\n    \"completo\": true,\r\n    \"exacta\": false,\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/division_polinomios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"division_polinomios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/multiplicacion_polinomios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\", \"a\"],\r\n    \"dominio\": \"ZZ\",\r\n    \"fraccion\": false,\r\n    \"completo\": true,\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/multiplicacion_polinomios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"multiplicacion_polinomios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/resta_polinomios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\", \"a\"],\r\n    \"dominio\": \"ZZ\",\r\n    \"fraccion\": false,\r\n    \"completo\": true,\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/resta_polinomios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"resta_polinomios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/resta_polinomios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\", \"a\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": false,\r\n    \"completo\": true,\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/resta_polinomios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"resta_polinomios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/resta_polinomios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\", \"a\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": true,\r\n    \"completo\": true,\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/resta_polinomios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"resta_polinomios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/suma_polinomios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\", \"a\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": true,\r\n    \"completo\": false,\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/suma_polinomios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"suma_polinomios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/suma_polinomios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\", \"a\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": true,\r\n    \"completo\": true,\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/suma_polinomios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"suma_polinomios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/suma_polinomios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\", \"a\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": false,\r\n    \"completo\": true,\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/suma_polinomios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"suma_polinomios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/suma_polinomios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\", \"a\"],\r\n    \"dominio\": \"ZZ\",\r\n    \"fraccion\": false,\r\n    \"completo\": true,\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/suma_polinomios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"suma_polinomios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/suma_polinomios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\" \"a\"],\r\n    \"dominio\": \"ZZ\",\r\n    \"fraccion\": false,\r\n    \"completo\": true,\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/suma_polinomios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"suma_polinomios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/suma_polinomios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\"],\r\n    \"dominio\": \"ZZ\",\r\n    \"fraccion\": false,\r\n    \"completo\": true,\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/suma_polinomios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"suma_polinomios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/simplificacion_fracciones",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\"],\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/simplificacion_fracciones",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"simplificacion_fracciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/division_fracciones",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\"],\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/division_fracciones",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"division_fracciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/multiplicacion_fracciones",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\"],\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/multiplicacion_fracciones",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"multiplicacion_fracciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/resta_fracciones",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\"],\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/resta_fracciones",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"resta_fracciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/suma_fracciones",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 10, \r\n    \"variables\": [\"x\"],\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/suma_fracciones",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"suma_fracciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/suma_fracciones",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\"],\r\n    \"gmin\": 1,\r\n    \"gmax\": 1,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/suma_fracciones",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"suma_fracciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/trinomio_forma2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\"],\r\n    \"cmin\": 1, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/trinomio_forma2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"trinomio_forma2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/trinomio_forma1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\"],\r\n    \"cmin\": 1, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/trinomio_forma1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"trinomio_forma1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/cubo_perfecto_binomios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\", \"z\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": false,\r\n    \"gmin\": 2,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/cubo_perfecto_binomios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"cubo_perfecto_binomios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/cubo_perfecto_binomios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\", \"z\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": true,\r\n    \"gmin\": 2,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/cubo_perfecto_binomios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"cubo_perfecto_binomios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/cubo_perfecto_binomios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": true,\r\n    \"gmin\": 2,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/cubo_perfecto_binomios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"cubo_perfecto_binomios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/trinomio_cuadrado_perfecto",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": true,\r\n    \"gmin\": 2,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/trinomio_cuadrado_perfecto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"trinomio_cuadrado_perfecto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/trinomio_cuadrado_perfecto",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": false,\r\n    \"gmin\": 2,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/trinomio_cuadrado_perfecto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"trinomio_cuadrado_perfecto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/trinomio_cuadrado_perfecto",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\"],\r\n    \"dominio\": \"ZZ\",\r\n    \"fraccion\": false,\r\n    \"gmin\": 2,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/trinomio_cuadrado_perfecto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"trinomio_cuadrado_perfecto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/diferencia_cuadrados",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\"],\r\n    \"gmin\": 2,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/diferencia_cuadrados",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"diferencia_cuadrados"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/diferencia_cuadrados",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\", \"y\"],\r\n    \"gmin\": 2,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/diferencia_cuadrados",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"diferencia_cuadrados"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/factor_comun\n",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\", \"y\"],\r\n    \"completo\": false,\r\n    \"gmin\": 2,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/factor_comun\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"factor_comun\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/factor_comun\n",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\", \"y\"],\r\n    \"completo\": true,\r\n    \"gmin\": 2,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/factor_comun\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"factor_comun\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000//trinomios_al_cuadrado\n",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\", \"y\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": true,\r\n    \"gmin\": 2,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000//trinomios_al_cuadrado\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"",
+						"trinomios_al_cuadrado\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000//trinomios_al_cuadrado\n",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\", \"y\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": false,\r\n    \"gmin\": 2,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000//trinomios_al_cuadrado\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"",
+						"trinomios_al_cuadrado\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000//trinomios_al_cuadrado\n",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\"],\r\n    \"dominio\": \"ZZ\",\r\n    \"fraccion\": false,\r\n    \"gmin\": 2,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000//trinomios_al_cuadrado\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"",
+						"trinomios_al_cuadrado\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/binomios_forma2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\"],\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/binomios_forma2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"binomios_forma2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/binomios_forma1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"x\"],\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/binomios_forma1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"binomios_forma1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/binomios_conjugados",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"q\", \"r\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": false,\r\n    \"gmin\": 1,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/binomios_conjugados",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"binomios_conjugados"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/binomios_conjugados",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"q\", \"r\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": true,\r\n    \"gmin\": 1,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/binomios_conjugados",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"binomios_conjugados"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/binomios_conjugados",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"q\", \"r\"],\r\n    \"dominio\": \"ZZ\",\r\n    \"fraccion\": false,\r\n    \"gmin\": 1,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/binomios_conjugados",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"binomios_conjugados"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/binomios_al_cubo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"q\", \"r\"],\r\n    \"dominio\": \"ZZ\",\r\n    \"fraccion\": false,\r\n    \"gmin\": 1,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/binomios_al_cubo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"binomios_al_cubo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/binomios_al_cubo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"q\", \"r\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": false,\r\n    \"gmin\": 1,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/binomios_al_cubo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"binomios_al_cubo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/binomios_al_cubo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"q\", \"r\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": true,\r\n    \"gmin\": 1,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/binomios_al_cubo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"binomios_al_cubo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/binomios_al_cuadrado",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"q\", \"r\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": true,\r\n    \"gmin\": 1,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/binomios_al_cuadrado",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"binomios_al_cuadrado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/binomios_al_cuadrado",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"q\", \"r\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": false,\r\n    \"gmin\": 1,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/binomios_al_cuadrado",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"binomios_al_cuadrado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/binomios_al_cuadrado",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"q\", \"y\", \"r\"],\r\n    \"dominio\": \"QQ\",\r\n    \"fraccion\": false,\r\n    \"gmin\": 1,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/binomios_al_cuadrado",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"binomios_al_cuadrado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/binomios_al_cuadrado",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"q\", \"y\", \"r\"],\r\n    \"dominio\": \"ZZ\",\r\n    \"fraccion\": false,\r\n    \"gmin\": 1,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/binomios_al_cuadrado",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"binomios_al_cuadrado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/binomios_al_cuadrado",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cantidad\": 50, \r\n    \"variables\": [\"q\", \"y\"],\r\n    \"dominio\": \"ZZ\",\r\n    \"fraccion\": false,\r\n    \"gmin\": 1,\r\n    \"gmax\": 3,\r\n    \"cmin\": -10, \r\n    \"cmax\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/binomios_al_cuadrado",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"binomios_al_cuadrado"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

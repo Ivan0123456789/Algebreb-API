@@ -16,6 +16,13 @@ from factorizacion import (lista_cubo_perfecto_binomios,
                            lista_trinomios_forma1, 
                            lista_trinomios_forma2)
 
+from polinomios import (lista_suma_polinomios,
+                        lista_resta_polinomios,
+                        lista_mult_polinomios,
+                        lista_div_polinomios,
+                        lista_grado_polinomios,
+                        lista_term_polinomios)
+
 from productos_notables import (lista_binomios_al_cuadrado,
                                 lista_binomios_al_cubo, 
                                 lista_binomios_conjugados, 
@@ -23,9 +30,16 @@ from productos_notables import (lista_binomios_al_cuadrado,
                                 lista_binomios_forma2,
                                 lista_trinomios_al_cuadrado)
 
-from fracciones_algebraicas import (lista_suma_fracciones)
+from fracciones_algebraicas import (lista_suma_fracciones,
+                                    lista_resta_fracciones,
+                                    lista_mult_fracciones, 
+                                    lista_div_fracciones,
+                                    lista_simp_fracciones)
+
+from ecuaciones import lista_grado1, lista_grado2
 
 app = Flask(__name__)
+app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 
 # <-- Endpoint de prueba -->
 
@@ -169,12 +183,150 @@ def trinomio_forma2():
 
     return respuesta
 
+# <-- Endpoints FRACCIONES ALGEBRAICAS -->
+
 @app.route('/suma_fracciones', methods=['GET'])
 def suma_fracciones():
     print(request.json)
 
     caracteristicas = request.json
     lista = lista_suma_fracciones(caracteristicas)
+    json_object = json.dumps(lista, indent=4)
+    respuesta = jsonify(json_object)
+
+    return respuesta
+
+@app.route('/resta_fracciones', methods=['GET'])
+def resta_fracciones():
+    print(request.json)
+
+    caracteristicas = request.json
+    lista = lista_resta_fracciones(caracteristicas)
+    json_object = json.dumps(lista, indent=4)
+    respuesta = jsonify(json_object)
+
+    return respuesta
+
+@app.route('/multiplicacion_fracciones', methods=['GET'])
+def multiplicacion_fracciones():
+    print(request.json)
+
+    caracteristicas = request.json
+    lista = lista_mult_fracciones(caracteristicas)
+    json_object = json.dumps(lista, indent=4)
+    respuesta = jsonify(json_object)
+
+    return respuesta
+
+@app.route('/division_fracciones', methods=['GET'])
+def division_fracciones():
+    print(request.json)
+
+    caracteristicas = request.json
+    lista = lista_div_fracciones(caracteristicas)
+    json_object = json.dumps(lista, indent=4)
+    respuesta = jsonify(json_object)
+
+    return respuesta
+
+@app.route('/simplificacion_fracciones', methods=['GET'])
+def simplificacion_fracciones():
+    print(request.json)
+
+    caracteristicas = request.json
+    lista = lista_simp_fracciones(caracteristicas)
+    json_object = json.dumps(lista, indent=4)
+    respuesta = jsonify(json_object)
+
+    return respuesta
+
+# <-- Endpoints POLINOMIOS -->
+
+@app.route('/suma_polinomios', methods=['GET'])
+def suma_polinomios():
+    print(request.json)
+
+    caracteristicas = request.json
+    lista = lista_suma_polinomios(caracteristicas)
+    json_object = json.dumps(lista, indent=4)
+    respuesta = jsonify(json_object)
+
+    return respuesta
+
+@app.route('/resta_polinomios', methods=['GET'])
+def resta_polinomios():
+    print(request.json)
+
+    caracteristicas = request.json
+    lista = lista_resta_polinomios(caracteristicas)
+    json_object = json.dumps(lista, indent=4)
+    respuesta = jsonify(json_object)
+
+    return respuesta
+    
+@app.route('/multiplicacion_polinomios', methods=['GET'])
+def multiplicacion_polinomios():
+    print(request.json)
+
+    caracteristicas = request.json
+    lista = lista_mult_polinomios(caracteristicas)
+    json_object = json.dumps(lista, indent=4)
+    respuesta = jsonify(json_object)
+
+    return respuesta
+
+@app.route('/division_polinomios', methods=['GET'])
+def division_polinomios():
+    print(request.json)
+
+    caracteristicas = request.json
+    lista = lista_div_polinomios(caracteristicas)
+    json_object = json.dumps(lista, indent=4)
+    respuesta = jsonify(json_object)
+
+    return respuesta
+
+@app.route('/grado_polinomios', methods=['GET'])
+def grado_polinomios():
+    print(request.json)
+
+    caracteristicas = request.json
+    lista = lista_grado_polinomios(caracteristicas)
+    json_object = json.dumps(lista, indent=4)
+    respuesta = jsonify(json_object)
+
+    return respuesta
+
+@app.route('/termino_polinomios', methods=['GET'])
+def termino_polinomios():
+    print(request.json)
+
+    caracteristicas = request.json
+    lista = lista_term_polinomios(caracteristicas)
+    json_object = json.dumps(lista, indent=4)
+    respuesta = jsonify(json_object)
+
+    return respuesta
+
+# <-- Endpoints ECUACIONES -->
+@app.route('/ecuaciones_grado1', methods=['GET'])
+def ecuaciones_grado1():
+    print(request.json)
+
+    caracteristicas = request.json
+    lista = lista_grado1(caracteristicas)
+    json_object = json.dumps(lista, indent=4)
+    respuesta = jsonify(json_object)
+
+    return respuesta
+
+# <-- Endpoints ECUACIONES -->
+@app.route('/ecuaciones_grado2', methods=['GET'])
+def ecuaciones_grado2():
+    print(request.json)
+
+    caracteristicas = request.json
+    lista = lista_grado2(caracteristicas)
     json_object = json.dumps(lista, indent=4)
     respuesta = jsonify(json_object)
 

@@ -1,5 +1,6 @@
 # <-- flask ..>
 from flask import Flask, json, jsonify, request
+from flask_cors import CORS, cross_origin
 
 # <--sympy -->
 from sympy import *
@@ -40,7 +41,9 @@ from ecuaciones import lista_grado1, lista_grado2
 
 app = Flask(__name__)
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
-
+# <-- Permitir cors para todos los origenes -->
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 # <-- Endpoint de prueba -->
 
 @app.route('/ping')

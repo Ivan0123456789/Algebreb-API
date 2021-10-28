@@ -52,7 +52,7 @@ def ping():
 
 # <-- Endpoints PRODUCTOS NOTABLES -->
 
-@app.route('/binomios_al_cuadrado', methods=['GET'])
+@app.route('/binomios_al_cuadrado', methods=['POST'])
 def binomios_al_cuadrado():
     print(request.json)
 
@@ -63,7 +63,7 @@ def binomios_al_cuadrado():
 
     return respuesta
 
-@app.route('/binomios_al_cubo', methods=['GET'])
+@app.route('/binomios_al_cubo', methods=['POST'])
 def binomios_al_cubo():
     print(request.json)
 
@@ -74,7 +74,7 @@ def binomios_al_cubo():
 
     return respuesta
 
-@app.route('/binomios_conjugados', methods=['GET'])
+@app.route('/binomios_conjugados', methods=['POST'])
 def binomios_conjugados():
     print(request.json)
 
@@ -85,7 +85,7 @@ def binomios_conjugados():
 
     return respuesta
 
-@app.route('/binomios_forma1', methods=['GET'])
+@app.route('/binomios_forma1', methods=['POST'])
 def binomios_forma1():
     print(request.json)
 
@@ -96,7 +96,7 @@ def binomios_forma1():
 
     return respuesta
 
-@app.route('/binomios_forma2', methods=['GET'])
+@app.route('/binomios_forma2', methods=['POST'])
 def binomios_forma2():
     print(request.json)
 
@@ -107,7 +107,7 @@ def binomios_forma2():
 
     return respuesta
 
-@app.route('/trinomios_al_cuadrado', methods=['GET'])
+@app.route('/trinomios_al_cuadrado', methods=['POST'])
 def trinomios_al_cuadrado():
     print(request.json)
 
@@ -120,7 +120,7 @@ def trinomios_al_cuadrado():
 
 # <-- Endpoints FACTORIZACION -->
 
-@app.route('/factor_comun', methods=['GET'])
+@app.route('/factor_comun', methods=['POST'])
 def factor_comun():
     print(request.json)
 
@@ -131,7 +131,7 @@ def factor_comun():
 
     return respuesta
 
-@app.route('/diferencia_cuadrados', methods=['GET'])
+@app.route('/diferencia_cuadrados', methods=['POST'])
 def diferencia_cuadrados():
     print(request.json)
 
@@ -142,7 +142,7 @@ def diferencia_cuadrados():
 
     return respuesta
 
-@app.route('/trinomio_cuadrado_perfecto', methods=['GET'])
+@app.route('/trinomio_cuadrado_perfecto', methods=['POST'])
 def trinomio_cuadrado_perfecto():
     print(request.json)
 
@@ -153,7 +153,7 @@ def trinomio_cuadrado_perfecto():
 
     return respuesta
 
-@app.route('/cubo_perfecto_binomios', methods=['GET'])
+@app.route('/cubo_perfecto_binomios', methods=['POST'])
 def cubo_perfecto_binomios():
     print(request.json)
 
@@ -164,7 +164,7 @@ def cubo_perfecto_binomios():
 
     return respuesta
 
-@app.route('/trinomio_forma1', methods=['GET'])
+@app.route('/trinomio_forma1', methods=['POST'])
 def trinomio_forma1():
     print(request.json)
 
@@ -175,7 +175,7 @@ def trinomio_forma1():
 
     return respuesta
 
-@app.route('/trinomio_forma2', methods=['GET'])
+@app.route('/trinomio_forma2', methods=['POST'])
 def trinomio_forma2():
     print(request.json)
 
@@ -188,7 +188,7 @@ def trinomio_forma2():
 
 # <-- Endpoints FRACCIONES ALGEBRAICAS -->
 
-@app.route('/suma_fracciones', methods=['GET'])
+@app.route('/suma_fracciones', methods=['POST'])
 def suma_fracciones():
     print(request.json)
 
@@ -199,7 +199,7 @@ def suma_fracciones():
 
     return respuesta
 
-@app.route('/resta_fracciones', methods=['GET'])
+@app.route('/resta_fracciones', methods=['POST'])
 def resta_fracciones():
     print(request.json)
 
@@ -210,7 +210,7 @@ def resta_fracciones():
 
     return respuesta
 
-@app.route('/multiplicacion_fracciones', methods=['GET'])
+@app.route('/multiplicacion_fracciones', methods=['POST'])
 def multiplicacion_fracciones():
     print(request.json)
 
@@ -221,7 +221,7 @@ def multiplicacion_fracciones():
 
     return respuesta
 
-@app.route('/division_fracciones', methods=['GET'])
+@app.route('/division_fracciones', methods=['POST'])
 def division_fracciones():
     print(request.json)
 
@@ -232,7 +232,7 @@ def division_fracciones():
 
     return respuesta
 
-@app.route('/simplificacion_fracciones', methods=['GET'])
+@app.route('/simplificacion_fracciones', methods=['POST'])
 def simplificacion_fracciones():
     print(request.json)
 
@@ -245,7 +245,7 @@ def simplificacion_fracciones():
 
 # <-- Endpoints POLINOMIOS -->
 
-@app.route('/suma_polinomios', methods=['GET'])
+@app.route('/suma_polinomios', methods=['POST'])
 def suma_polinomios():
     print(request.json)
 
@@ -256,7 +256,7 @@ def suma_polinomios():
 
     return respuesta
 
-@app.route('/resta_polinomios', methods=['GET'])
+@app.route('/resta_polinomios', methods=['POST'])
 def resta_polinomios():
     print(request.json)
 
@@ -267,7 +267,7 @@ def resta_polinomios():
 
     return respuesta
     
-@app.route('/multiplicacion_polinomios', methods=['GET'])
+@app.route('/multiplicacion_polinomios', methods=['POST'])
 def multiplicacion_polinomios():
     print(request.json)
 
@@ -278,7 +278,7 @@ def multiplicacion_polinomios():
 
     return respuesta
 
-@app.route('/division_polinomios', methods=['GET'])
+@app.route('/division_polinomios', methods=['POST'])
 def division_polinomios():
     print(request.json)
 
@@ -289,7 +289,7 @@ def division_polinomios():
 
     return respuesta
 
-@app.route('/grado_polinomios', methods=['GET'])
+@app.route('/grado_polinomios', methods=['POST'])
 def grado_polinomios():
     print(request.json)
 
@@ -300,7 +300,7 @@ def grado_polinomios():
 
     return respuesta
 
-@app.route('/termino_polinomios', methods=['GET'])
+@app.route('/termino_polinomios', methods=['POST'])
 def termino_polinomios():
     print(request.json)
 
@@ -312,7 +312,7 @@ def termino_polinomios():
     return respuesta
 
 # <-- Endpoints ECUACIONES -->
-@app.route('/ecuaciones_grado1', methods=['GET'])
+@app.route('/ecuaciones_grado1', methods=['POST'])
 def ecuaciones_grado1():
     print(request.json)
 
@@ -324,7 +324,7 @@ def ecuaciones_grado1():
     return respuesta
 
 # <-- Endpoints ECUACIONES -->
-@app.route('/ecuaciones_grado2', methods=['GET'])
+@app.route('/ecuaciones_grado2', methods=['POST'])
 def ecuaciones_grado2():
     print(request.json)
 
